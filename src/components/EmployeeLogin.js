@@ -7,7 +7,6 @@ import './EmployeeLogin.css'
 import { fetchDataRequest, fetchEmployeeID } from '../actions/loginAction';
 const EmployeeLogin = () => {
    
-    // const [data, setData] = useState();
     const [empId,setEmpId] = useState();
     const [isMatching,setIsMatching] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
