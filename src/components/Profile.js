@@ -2,8 +2,6 @@ import React from 'react'
 import { useSelector } from 'react-redux';
 import './Profile.css';
 
-// const firstRowDetails = ['EMPLOYEE ID', 'CLIENT NAME', 'BAND']
-// const secondRowDetails = ['EXPERIENCE', 'PROJECT NAME', 'JOB ROLE']
 const firstRowDetails = (empData) => {
     const firstRowData = [
         {
