@@ -1,0 +1,52 @@
+.login{
+    display: flex;
+}
+.image{
+    height: 100vh;
+    width: 60vw;
+}
+.heading{
+    color: gray;
+}
+.form{
+    width:40vw;
+    border: 3px solid gray;
+    border-radius: 10px;
+    margin: 50px;
+    padding-top: 25vh;
+    padding-left: 8vw;
+    align-items: center;
+}
+.input{
+width: 250px;
+height: 30px;
+border-radius: 5px;
+border: 2px solid gray;
+margin-top: 7px;
+margin-bottom: 7px;
+cursor: pointer;
+}
+.button{
+    background-color: green;
+    border: 2px solid green;
+    border-radius: 5px;
+    color: white;
+    width:100px;
+    height: 40px;
+    margin: 10px;
+    margin-left: 80px;
+    cursor: pointer;
+}
+.loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid gray;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
