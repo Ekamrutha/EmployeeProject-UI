@@ -36,11 +36,27 @@ const secondRowDetails = (empData) => {
     ]
     return secondRowData;
 }
+const displaySkills = (empData) => {
+   return <div className='overflowBox'>{empData.skills.split(',').map(obj => <p>{obj}</p>)}</div>
+}
+const managerDetails = (empData) => {
+    const managerData = [
+        {
+            header: 'MANAGER ID',
+            data: empData?.managerId,
+        },
+        {
+            header: 'MANAGER NAME',
+            data: empData?.managerName,
+        },
+    ]
+    return managerData;
+}
 const Profile = ()  => {
     const {empData} = useSelector(state => state.employeeData);
   return (
     <>
-    <p className='heading'>Welcome {empData?.firstName+" "}{empData?.lastName} !!</p>
+    <p className='profileHeading'>Welcome {empData?.firstName+" "}{empData?.lastName} !!</p>
     <div className='mainBox'>
         <div className='headerLabel'>Employee Details</div>
         <div className='flexBox'>
@@ -55,6 +71,15 @@ const Profile = ()  => {
                             <p>{obj.data}</p>
                             </div>)}
         </div>
+        <div className='headerTwoLabel'>Skills</div>
+        {displaySkills(empData)}
+        <div className='headerTwoLabel'>Manager Details</div>
+            <div className='flexBox'>
+        {managerDetails(empData).map(obj => <div className='eachParameter'>
+                            <p className='dataHeader'>{obj.header}</p>
+                            <p>{obj.data}</p>
+                        </div>)}
+            </div>
     </div>
     </>
   )

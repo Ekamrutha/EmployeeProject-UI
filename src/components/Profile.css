@@ -6,7 +6,7 @@
     margin: 30px auto;
     padding-left: 20px;
 }
-.heading{
+.profileHeading{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
     font-size: 30px;
@@ -26,8 +26,23 @@
     font-weight: bold;
     color: white;
 }
+.headerTwoLabel{
+    background-color: rgb(188, 188, 188);
+    height: 40px;
+    margin-left: -20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
 .flexBox{
     display: flex;
+}
+.overflowBox{
+    height: 250px;
+    overflow: scroll;
 }
 .eachParameter{
     width:10vw;
