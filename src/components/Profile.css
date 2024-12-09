@@ -1,5 +1,6 @@
 .mainBox{
-    border: 1px solid Gray;
+    border: 1px solid gray;
+    box-shadow: 5px 10px 5px 5px gray;
     border-radius: 20px;
     height:80vh;
     width:90vw;
@@ -13,7 +14,7 @@
     margin-left: 70px;
 }
 .headerLabel{
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(234, 231, 231);
     border-top: 1px solid rgb(188, 188, 188);
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -24,10 +25,9 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
 }
 .headerTwoLabel{
-    background-color: rgb(188, 188, 188);
+    background-color: rgb(234, 231, 231);
     height: 40px;
     margin-left: -20px;
     padding-left: 10px;
@@ -35,7 +35,6 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    color: white;
 }
 .flexBox{
     display: flex;

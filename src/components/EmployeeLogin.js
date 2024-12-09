@@ -45,7 +45,7 @@ const EmployeeLogin = () => {
     
     return (
         <div className='login'>
-            <img src='/people.png' className='image'></img>
+            <img src='/background.png' className='image'></img>
             <div className='form'>
                 <h1 className='heading'>CNR Software Solutions</h1>
                 <form onSubmit={handleSubmit}>

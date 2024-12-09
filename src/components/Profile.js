@@ -37,7 +37,7 @@ const secondRowDetails = (empData) => {
     return secondRowData;
 }
 const displaySkills = (empData) => {
-   return <div className='overflowBox'>{empData.skills.split(',').map(obj => <p>{obj}</p>)}</div>
+   return <div className='overflowBox'>{empData.skills?.split(',').map(obj => <p>{obj}</p>)}</div>
 }
 const managerDetails = (empData) => {
     const managerData = [

@@ -1,0 +1,69 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.calendar{
+    float: right;
+    width: 800px;
+    margin-right: 20px;
+    margin-top: 200px;
+}
+.buttonContainer{
+    display: flex;
+    margin-top: 150px;
+}
+.selectedButton{
+    background-color: blueviolet;
+    border: 2px solid blueviolet;
+    color: white;
+    border-radius: 5px;
+    width:150px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 120px;
+    padding: 10px 0px 0px 30px;
+}
+.attendanceButton{
+    background-color: lightgray;
+    border: 2px solid lightgray;
+    border-radius: 5px;
+    color: black;
+    width:150px;
+    height: 30px;
+    margin: 10px;
+    margin-left: 120px;
+    padding: 10px 0px 0px 30px;
+    cursor: pointer;
+}
+.attendance{
+    margin: 40px;
+    padding: 40px;
+}
+.green{
+    width: 100px;
+    height: 20px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.red{
+    width: 100px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.display{
+    display: flex;
+}
+.attendanceContainer{
+    border: 1px solid lightgray;
+    box-shadow: 5px 10px 5px 5px lightgray;
+    border-radius: 10px;
+    margin-left: 120px;
+    margin-top: 30px;
+    width: 500px;
+    height:300px;
+}
