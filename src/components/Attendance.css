@@ -12,32 +12,39 @@
     display: flex;
     margin-top: 150px;
 }
+.buttonContainer1{
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
 .selectedButton{
     background-color: blueviolet;
     border: 2px solid blueviolet;
     color: white;
     border-radius: 5px;
-    width:150px;
+    text-align: center;
+    width:180px;
     height: 30px;
     margin: 10px;
     margin-left: 120px;
-    padding: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 0px;
 }
 .attendanceButton{
     background-color: lightgray;
     border: 2px solid lightgray;
     border-radius: 5px;
+    text-align: center;
     color: black;
-    width:150px;
+    width:180px;
     height: 30px;
     margin: 10px;
     margin-left: 120px;
-    padding: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 0px;
     cursor: pointer;
 }
 .attendance{
     margin: 40px;
-    padding: 40px;
+    padding: 20px 40px 40px 40px;
 }
 .green{
     width: 100px;
@@ -65,5 +72,25 @@
     margin-left: 120px;
     margin-top: 30px;
     width: 500px;
-    height:300px;
+    height:340px;
+}
+.navigateButton{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 7px;
+    text-align: center;
+    border: 1px solid rgb(189, 236, 255);
+    background-color: rgb(189, 236, 255);
+    cursor: pointer;
+}
+.disabledButton{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid rgb(243, 239, 239);
+    background-color: rgb(243, 239, 239);
+    cursor: not-allowed;
 }
